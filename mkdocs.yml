@@ -12,6 +12,8 @@ nav:
 theme:
     name: 'material'
     language: en
+    logo: assets/logo
+    favicon: assets/favicon
     palette:
 
     # Light mode

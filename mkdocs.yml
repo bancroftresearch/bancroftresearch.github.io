@@ -1,13 +1,9 @@
 site_name: Bancroft Research
-site_url: https://bancroftresearch.com/
+site_url: https://bancroftresearch.gitbub.io
 repo_name: "GitHub"
 site_author: "Bancroft Research"
-
-nav:
-  - Home: index.md
-  - About: about.md
-  - Blog: blog.md
-  - Disclaimer: disclaimer.md
+site_description: >-
+  Proprietary financial market research.
 
 theme:
     name: 'material'
@@ -15,24 +11,23 @@ theme:
     logo: assets/logo.JPG
     favicon: assets/favicon.ico
     palette:
+      # Light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        primary: black
+        accent: indigo
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
 
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: blue
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+      # Dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: black
+        accent: blue
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -63,3 +58,9 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/bancroftres
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: blog.md
+  - Disclaimer: disclaimer.md

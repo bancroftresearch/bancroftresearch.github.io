@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bancroftresearch.com/sitemap.xml
